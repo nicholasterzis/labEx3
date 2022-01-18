@@ -20,6 +20,9 @@ McPAT and GEM5 study
 ## Ερώτημα 4
 
 
+XEON - ARM A9 stats.txt 
+
+
 
 # Βιβλιογραφία
 
