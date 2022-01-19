@@ -31,4 +31,5 @@ https://www.quora.com/What-is-the-activity-factor-which-is-related-to-power-diss
 https://asic-soc.blogspot.com/2008/04/short-circuit-power.html
 https://www.sciencedirect.com/topics/computer-science/dynamic-power-dissipation
 https://en.wikipedia.org/wiki/Clock_gating
+https://www.hpl.hp.com/research/mcpat/McPATAlpha_TechRep.pdf
 
