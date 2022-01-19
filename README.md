@@ -23,6 +23,120 @@ McPAT and GEM5 study
 
 # Βήμα 2
 
+## Bzip Benchmark
+
+### Για διαφοερετικές τιμές L1i και L1d έχουμε:
+
+
+|Benchmarks|Peak Power|Area|
+|---|---|---|
+| bzip32_64 |3.7820  | 9.0027 | 
+| bzip128_64 |5.1688 |14.1919|
+|bzip128_128 |5.7018  |16.5205|
+|bzip128_256 |6.1125 |18.0274|
+|bzip256_128| 6.0743 |18.1781|
+|bzip256_256  |6.4851 |19.6851|
+
+### Διάγραμμα για area
+
+![image](https://user-images.githubusercontent.com/47783647/150195974-a7d0273a-3d8f-4172-b82d-12483d665e76.png)
+
+
+
+### Διάγραμμα για power
+
+![image](https://user-images.githubusercontent.com/47783647/150194956-e311802e-1a21-45a1-9d50-853585fd790a.png)
+
+
+
+### Αλλάζοντας την L2:
+
+|Benchmarks|Peak Power|Area|
+|---|---|---|
+|bzip32_64|3.7820| 9.0027 |   
+|bzipl21024|3.85068 |11.0873 |
+|bzipl22048|3.9559|14.3903|
+|bzipl24096| 4.0806|19.7942|
+
+
+### Διάγραμμα για area
+
+![image](https://user-images.githubusercontent.com/47783647/150197965-9d04ba90-4cb9-4cf1-96db-3938b0daf1b1.png)
+
+
+
+### Διάγραμμα για power
+
+![image](https://user-images.githubusercontent.com/47783647/150197030-561be430-5e3d-4a21-97dc-2acb58f0167d.png)
+
+
+
+### Μεταβάλλοντας το Associativity των L1i και L1d:
+
+|Benchmarks|Peak Power|Area|
+|---|---|---|
+|bzip32_64|3.7820| 9.0027 | 
+|bzipl1assoc2|3.8067|9.0754|
+|bzipl1assoc4| 3.9169  | 8.8818|
+|bzipl1assoc4_8| 4.2097|9.8125|
+|bzipl1assoc8_4|4.0691|9.1551|
+
+
+### Διάγραμμα για area
+
+![image](https://user-images.githubusercontent.com/47783647/150199685-87be3695-9065-4c83-879c-a0e33aa1f3b5.png)
+
+
+
+### Διάγραμμα για power
+
+![image](https://user-images.githubusercontent.com/47783647/150199005-29f852ce-b5aa-4635-bff6-664d5dc556c9.png)
+
+
+
+### Μεταβάλλοντας το Associativity της L2:
+
+|Benchmarks|Peak Power|Area|
+|---|---|---|
+|bzip32_64|3.7820| 9.0027 | 
+|bzipl2assoc2|3.7820| 9.0018|
+|bzipl2assoc4|3.7823|9.0005|
+|bzipl2assoc8|3.7837| 9.0385|
+
+### Διάγραμμα για area
+
+![image](https://user-images.githubusercontent.com/47783647/150200425-8e4be5a3-1a61-4ab7-bc33-960c7a246caa.png)
+
+
+
+### Διάγραμμα για power
+
+![image](https://user-images.githubusercontent.com/47783647/150200350-e168084d-c20e-4dc4-9ae6-cc94e0b3682b.png)
+
+
+
+## Αλλάζοντας το cache line size
+
+|Benchmarks|Peak Power|Area|
+|---|---|---|
+|bzipcls32|2.1716|6.9483  | 
+|bzip32_64|3.7820| 9.0027 |
+|bzipcls128|  8.1869|  20.9686|
+|bzipcls256| 24.4794|  49.9250|
+
+
+### Διάγραμμα για area
+
+![image](https://user-images.githubusercontent.com/47783647/150201344-a4a274c0-678c-4c4e-ab91-e1aed63a2f24.png)
+
+
+
+### Διάγραμμα για power
+
+![image](https://user-images.githubusercontent.com/47783647/150201271-971dbcba-bb7f-42e0-bef8-bd99f2772a22.png)
+
+
+
 
 # Βιβλιογραφία
 
